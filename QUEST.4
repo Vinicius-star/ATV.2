@@ -1,0 +1,18 @@
+num = input("Digite o número:")
+num = int(num)
+div = 2
+primo = True
+mini = num/2
+
+while div <= mini:
+if num%div == 0:
+primo = False
+print("É divisível por: ", div)
+div += 1
+if num <= 1:
+primo = False
+
+if primo == True:
+print("É primo")
+else:
+print("Não é primo")
