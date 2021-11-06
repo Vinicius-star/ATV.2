@@ -1,0 +1,9 @@
+insert = input("Escreva umas frase de entrada:")
+txt = ("text convert")
+print(txt[::-1])
+
+def inverter(txt):
+    return txt[::-1]
+
+print(inverter("text"))
+print (inverter ("inverter o mesmo"))
